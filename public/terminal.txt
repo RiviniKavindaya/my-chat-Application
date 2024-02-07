@@ -1,0 +1,49 @@
+C:\prectical>mkdir chatroom
+
+C:\prectical>cd chatroom
+
+C:\prectical\chatroom>npm init -y
+Wrote to C:\prectical\chatroom\package.json:
+
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\prectical\chatroom>npm install express socket.io --save
+
+added 83 packages, and audited 84 packages in 6s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\prectical\chatroom>npm fund
+chatroom@1.0.0
++-- https://github.com/sponsors/ljharb
+|   `-- qs@6.11.0, side-channel@1.0.4, call-bind@1.0.5, function-bind@1.1.2, gopd@1.0.1, has-property-descriptors@1.0.1, get-intrinsic@1.2.2, has-proto@1.0.1, has-symbols@1.0.3, object-inspect@1.13.1
+`-- https://github.com/sponsors/feross
+    `-- safe-buffer@5.2.1
+
+
+C:\prectical\chatroom>mkdir public
+
+C:\prectical\chatroom> code .
+
+C:\prectical\chatroom>node server.js
+
+C:\prectical\chatroom>node server.js
+
+
+
